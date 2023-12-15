@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "colorful_diamonds_mod",
+  "version": "${version}",
+  "name": "colorful-diamonds-mod",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All Rights Reserved",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "value": "com.github.mystery2099.colorfuldiamondsmod.fabric.ColorfulDiamondsModFabric"
+      }
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.2",
+    "minecraft": ">=1.19.2"
+  }
+}

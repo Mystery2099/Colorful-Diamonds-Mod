@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "colorfuldiamondsmod:block/cyan_diamond_block"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "colorfuldiamondsmod:item/green_diamond_pickaxe"
+  }
+}
