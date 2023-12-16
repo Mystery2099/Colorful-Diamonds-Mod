@@ -1,6 +1,7 @@
 {
-  "itemGroup.colorful_diamonds_mod.items": "Colorful Diamonds Mod: Items",
-  "itemGroup.colorful_diamonds_mod.blocks": "Colorful Diamonds Mod: Blocks",
+  "itemGroup.colorful_diamonds_mod.default": "Colorful Diamonds Mod",
+  "itemGroup.colorful_diamonds_mod.tools": "Colorful Diamonds Mod: Tools",
+  "itemGroup.colorful_diamonds_mod.combat": "Colorful Diamonds Mod: Combat",
 
   "item.colorful_diamonds_mod.white_diamond": "White Diamond",
   "item.colorful_diamonds_mod.orange_diamond": "Orange Diamond",
