@@ -2,19 +2,17 @@ package com.github.mystery2099.colorfuldiamondsmod;
 
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.DyeColor;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.Material;
-
-import static net.minecraft.core.Registry.BLOCK_REGISTRY;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.Material;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
+import net.minecraft.util.DyeColor;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
-    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ColorfulDiamondsMod.MOD_ID, BLOCK_REGISTRY);
+    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ColorfulDiamondsMod.MOD_ID, Registry.BLOCK_KEY);
     public static final RegistrySupplier<Block> WHITE_DIAMOND_BLOCK = register(DyeColor.WHITE);
     public static final RegistrySupplier<Block> ORANGE_DIAMOND_BLOCK = register(DyeColor.ORANGE);
     public static final RegistrySupplier<Block> MAGENTA_DIAMOND_BLOCK = register(DyeColor.MAGENTA);
@@ -32,9 +30,9 @@ public class ModBlocks {
     public static final RegistrySupplier<Block> RED_DIAMOND_BLOCK = register(DyeColor.RED);
     public static final RegistrySupplier<Block> BLACK_DIAMOND_BLOCK = register(DyeColor.BLACK);
     private static RegistrySupplier<Block> register(DyeColor color) {
-        var location = new ResourceLocation(ColorfulDiamondsMod.MOD_ID, color.toString().toLowerCase() + "_diamond_block");
-        var block = BLOCKS.register(location, () -> new Block(BlockBehaviour.Properties.of(Material.METAL, color).requiresCorrectToolForDrops()));
-        ModItems.ITEMS.register(location, () -> new BlockItem(block.get(), new Item.Properties().tab(ColorfulDiamondsMod.BLOCK_TAB)));
+        var location = new Identifier(ColorfulDiamondsMod.MOD_ID, color.toString().toLowerCase() + "_diamond_block");
+        var block = BLOCKS.register(location, () -> new Block(AbstractBlock.Settings.of(Material.METAL, color).requiresTool()));
+        ModItems.ITEMS.register(location, () -> new BlockItem(block.get(), new Item.Settings().group(ColorfulDiamondsMod.BLOCK_TAB)));
         return block;
     }
 }
