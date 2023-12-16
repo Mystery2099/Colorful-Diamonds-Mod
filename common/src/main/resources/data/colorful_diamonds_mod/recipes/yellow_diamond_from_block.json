@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "colored_diamonds_from_block",
+  "ingredients": [
+    {
+      "item": "colorful_diamonds_mod:yellow_diamond_block"
+    }
+  ],
+  "result": {
+    "item": "colorful_diamonds_mod:yellow_diamond",
+    "count": 9
+  }
+}

@@ -4,6 +4,7 @@ plugins {
 architectury {
     platformSetupLoomIde()
     forge()
+
 }
 
 configurations {
@@ -12,6 +13,7 @@ configurations {
     compileClasspath.extendsFrom common
     runtimeClasspath.extendsFrom common
     developmentForge.extendsFrom common
+
 }
 
 dependencies {

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "colorfuldiamondsmod:item/cyan_diamond_sword"
+    "layer0": "colorful_diamonds_mod:item/cyan_diamond_sword"
   }
 }

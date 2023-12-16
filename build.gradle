@@ -22,7 +22,6 @@ subprojects {
         // mappings "net.fabricmc:yarn:@YARN_MAPPINGS@:v2"
     }
 }
-
 allprojects {
     apply plugin: "java"
     apply plugin: "architectury-plugin"
@@ -40,7 +39,7 @@ allprojects {
         // for more information about repositories.
     }
 
-    tasks.withType(JavaCompile) {
+    tasks.withType(JavaCompile).configureEach {
         options.encoding = "UTF-8"
         options.release = 17
     }

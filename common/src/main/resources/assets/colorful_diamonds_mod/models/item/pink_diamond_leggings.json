@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "colorfuldiamondsmod:item/pink_diamond_leggings"
+    "layer0": "colorful_diamonds_mod:item/pink_diamond_leggings"
   }
 }

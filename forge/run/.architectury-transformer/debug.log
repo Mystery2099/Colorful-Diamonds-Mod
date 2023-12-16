@@ -120,32 +120,33 @@
 [Architectury Transformer DEBUG]  - C:\Users\matty\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.77.Final\8d10e9e138dac52172dd83229bdc89197100c723\netty-transport-native-epoll-4.1.77.Final-linux-x86_64.jar
 [Architectury Transformer DEBUG]  - C:\Users\matty\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.77.Final\5f051599ced83e119ddeda891f471c0613721e5c\netty-transport-native-epoll-4.1.77.Final-linux-aarch_64.jar
 [Architectury Transformer DEBUG]  - C:\Users\matty\IdeaProjects\colorful-diamonds-mod\.gradle\loom-cache\remapped_mods\loom_mappings_1_19_2_layered_hash_40359_v2_forge_1_19_2_43_3_5_forge\dev\architectury\architectury-forge\6.5.85\architectury-forge-6.5.85.jar
-[Architectury Transformer] Read classpath in 1.105 s
+[Architectury Transformer] Read classpath in 1.092 s
 [Architectury Transformer DEBUG] Closed File Systems for C:\Users\matty\IdeaProjects\colorful-diamonds-mod\common\build\devlibs\colorful-diamonds-mod-1.0.0+1.19.2-dev.jar
-[Architectury Transformer DEBUG] Transforming 8 transformer(s) from C:\Users\matty\IdeaProjects\colorful-diamonds-mod\common\build\devlibs\colorful-diamonds-mod-1.0.0+1.19.2-dev.jar to C:\Users\matty\AppData\Local\Temp\18328481487517811663.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@140e5a13
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@3439f68d
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@dbd940d
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@71d15f18
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@17695df3
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@6c9f5c0d
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@de3a06f
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@76b10754
-[Architectury Transformer DEBUG] Transforming from C:\Users\matty\IdeaProjects\colorful-diamonds-mod\common\build\devlibs\colorful-diamonds-mod-1.0.0+1.19.2-dev.jar to C:\Users\matty\AppData\Local\Temp\18328481487517811663.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming 8 transformer(s) from C:\Users\matty\IdeaProjects\colorful-diamonds-mod\common\build\devlibs\colorful-diamonds-mod-1.0.0+1.19.2-dev.jar to C:\Users\matty\AppData\Local\Temp\5729708626972752938.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@604c5de8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@37091312
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@66fdec9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@57abad67
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@550a1967
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@2a640157
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@52851b44
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@584f54e6
+[Architectury Transformer DEBUG] Transforming from C:\Users\matty\IdeaProjects\colorful-diamonds-mod\common\build\devlibs\colorful-diamonds-mod-1.0.0+1.19.2-dev.jar to C:\Users\matty\AppData\Local\Temp\5729708626972752938.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$139/0x000000080108e000@1e67a849
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$142/0x00000008010cd028@68ead359
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/github/mystery2099/colorfuldiamondsmod/Registry with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/github/mystery2099/colorfuldiamondsmod/ModBlocks with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/github/mystery2099/colorfuldiamondsmod/ModItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/github/mystery2099/colorfuldiamondsmod/ColorfulDiamondsMod with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: colorful-diamonds-mod-forge-refmap.json
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\matty\AppData\Local\Temp\18328481487517811663.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\matty\AppData\Local\Temp\5729708626972752938.jar
 [Architectury Transformer] Listening at C:\Users\matty\IdeaProjects\colorful-diamonds-mod\common\build\devlibs\colorful-diamonds-mod-1.0.0+1.19.2-dev.jar
 [Architectury Transformer DEBUG] Transforming from com/github/mystery2099/colorfuldiamondsmod/ColorfulDiamondsMod.class to com/github/mystery2099/colorfuldiamondsmod/ColorfulDiamondsMod.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$139/0x000000080108e000@1e67a849
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$142/0x00000008010cd028@68ead359
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
@@ -153,14 +154,62 @@
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/github/mystery2099/colorfuldiamondsmod/ColorfulDiamondsMod with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: colorful-diamonds-mod-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/github/mystery2099/colorfuldiamondsmod/ColorfulDiamondsMod in 62.13 ms
-[Architectury Transformer DEBUG] Transforming from com/github/mystery2099/colorfuldiamondsmod/Registry.class to com/github/mystery2099/colorfuldiamondsmod/Registry.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Transformed com/github/mystery2099/colorfuldiamondsmod/ColorfulDiamondsMod in 66.47 ms
+[Architectury Transformer DEBUG] Transforming from com/github/mystery2099/colorfuldiamondsmod/ModBlocks.class to com/github/mystery2099/colorfuldiamondsmod/ModBlocks.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$139/0x000000080108e000@1e67a849
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$142/0x00000008010cd028@68ead359
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/github/mystery2099/colorfuldiamondsmod/Registry with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/github/mystery2099/colorfuldiamondsmod/ModBlocks with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: colorful-diamonds-mod-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/github/mystery2099/colorfuldiamondsmod/Registry in 10.65 ms
+[Architectury Transformer DEBUG] Transformed com/github/mystery2099/colorfuldiamondsmod/ModBlocks in 9.903 ms
+[Architectury Transformer DEBUG] Transforming from com/github/mystery2099/colorfuldiamondsmod/ModItems.class to com/github/mystery2099/colorfuldiamondsmod/ModItems.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$142/0x00000008010cd028@68ead359
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/github/mystery2099/colorfuldiamondsmod/ModItems with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: colorful-diamonds-mod-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/github/mystery2099/colorfuldiamondsmod/ModItems in 7.831 ms
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\matty\IdeaProjects\colorful-diamonds-mod\common\build\devlibs\colorful-diamonds-mod-1.0.0+1.19.2-dev.jar
+[Architectury Transformer] Detected File Modification at colorful-diamonds-mod-1.0.0+1.19.2-dev.jar
+[Architectury Transformer DEBUG] Transforming 8 transformer(s) from C:\Users\matty\IdeaProjects\colorful-diamonds-mod\common\build\devlibs\colorful-diamonds-mod-1.0.0+1.19.2-dev.jar to C:\Users\matty\AppData\Local\Temp\5729708626972752938.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@604c5de8
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@37091312
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@66fdec9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@57abad67
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@550a1967
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@2a640157
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@52851b44
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@584f54e6
+[Architectury Transformer DEBUG] Transforming from C:\Users\matty\IdeaProjects\colorful-diamonds-mod\common\build\devlibs\colorful-diamonds-mod-1.0.0+1.19.2-dev.jar to C:\Users\matty\AppData\Local\Temp\5729708626972752938.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$142/0x00000008010cd028@68ead359
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing generatedgenerated_c55bbc9/generated_c55bbc9 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing architectury_inject_colorfuldiamondsmod_forge_928b9835cf2b4c44afd78dae7e5508ca_9e0a0b41cee58922eddad403ad5b8ae55cc0e533a66945de03fe3e3d1dbf63aacolorfuldiamondsmod1001192devjar/PlatformMethods with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/github/mystery2099/colorfuldiamondsmod/ModItems with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/github/mystery2099/colorfuldiamondsmod/ModBlocks with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/github/mystery2099/colorfuldiamondsmod/ColorfulDiamondsMod with maxs=true frames=true
+[Architectury Transformer DEBUG] Injecting MixinConfigs into /META-INF/MANIFEST.MF
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: colorful-diamonds-mod-forge-refmap.json
+[Architectury Transformer DEBUG] Redefining com.github.mystery2099.colorfuldiamondsmod.ModBlocks
+[Architectury Transformer DEBUG] Transforming from com/github/mystery2099/colorfuldiamondsmod/ModBlocks.class to com/github/mystery2099/colorfuldiamondsmod/ModBlocks.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$142/0x00000008010cd028@68ead359
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/github/mystery2099/colorfuldiamondsmod/ModBlocks with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: colorful-diamonds-mod-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/github/mystery2099/colorfuldiamondsmod/ModBlocks in 21.39 ms
+[Architectury Transformer] Redefined 1 class(es) from C:\Users\matty\IdeaProjects\colorful-diamonds-mod\common\build\devlibs\colorful-diamonds-mod-1.0.0+1.19.2-dev.jar in 147.3 ms
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\matty\IdeaProjects\colorful-diamonds-mod\common\build\devlibs\colorful-diamonds-mod-1.0.0+1.19.2-dev.jar

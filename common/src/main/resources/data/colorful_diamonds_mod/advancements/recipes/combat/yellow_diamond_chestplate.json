@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "colorful_diamonds_mod:yellow_diamond_chestplate"
+    ]
+  },
+  "criteria": {
+    "has_colorful_diamonds_mod:yellow_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "colorful_diamonds_mod:yellow_diamond"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "colorful_diamonds_mod:yellow_diamond_chestplate"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colorful_diamonds_mod:yellow_diamond",
+      "has_the_recipe"
+    ]
+  ]
+}

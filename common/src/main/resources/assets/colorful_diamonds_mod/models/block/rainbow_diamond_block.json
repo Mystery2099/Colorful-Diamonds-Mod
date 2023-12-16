@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "colorfuldiamondsmod:block/rainbow_diamond_block"
-  }
-}

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "colorfuldiamondsmod:item/gray_diamond_axe"
+    "layer0": "colorful_diamonds_mod:item/gray_diamond_axe"
   }
 }

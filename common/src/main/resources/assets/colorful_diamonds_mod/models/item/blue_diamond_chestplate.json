@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "colorfuldiamondsmod:item/blue_diamond_chestplate"
+    "layer0": "colorful_diamonds_mod:item/blue_diamond_chestplate"
   }
 }

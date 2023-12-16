@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "colorfuldiamondsmod:item/light_blue_diamond_shovel"
+    "layer0": "colorful_diamonds_mod:item/light_blue_diamond_shovel"
   }
 }
