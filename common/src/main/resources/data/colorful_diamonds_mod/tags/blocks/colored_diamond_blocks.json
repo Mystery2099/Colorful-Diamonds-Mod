@@ -18,7 +18,6 @@
     "colorful_diamonds_mod:red_diamond_block",
     "colorful_diamonds_mod:black_diamond_block",
     "colorful_diamonds_mod:rainbow_diamond_block",
-    "#forge:storage_blocks/diamond",
     "minecraft:diamond_block"
   ]
 }

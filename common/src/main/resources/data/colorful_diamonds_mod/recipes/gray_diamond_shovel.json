@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "colored_diamond_shovels",
+  "group": "gray_diamond_handhelds",
   "pattern": [
     "#",
     "|",
@@ -8,7 +8,7 @@
   ],
   "key": {
     "|": {
-      "tag": "forge:rods/wooden"
+      "item": "minecraft:stick"
     },
     "#": {
       "item": "colorful_diamonds_mod:gray_diamond"

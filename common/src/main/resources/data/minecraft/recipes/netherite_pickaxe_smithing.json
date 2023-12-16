@@ -4,7 +4,7 @@
     "tag": "colorful_diamonds_mod:colorful_diamond_pickaxes"
   },
   "addition": {
-    "tag": "forge:ingots/netherite"
+    "item": "minecraft:netherite_ingot"
   },
   "result": {
     "item": "minecraft:netherite_pickaxe"

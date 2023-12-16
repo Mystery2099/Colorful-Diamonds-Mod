@@ -3,7 +3,7 @@
   "group": "colored_diamonds_from_dye",
   "ingredients": [
     {
-      "tag": "forge:dyes/gray"
+      "item": "minecraft:gray_dye"
     },
     {
       "tag": "colorful_diamonds_mod:colored_diamonds"
