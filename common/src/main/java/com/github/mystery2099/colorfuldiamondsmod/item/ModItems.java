@@ -17,7 +17,7 @@ import java.util.function.Supplier;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ColorfulDiamondsMod.MOD_ID, Registry.ITEM_KEY);
-    public static final RegistrySupplier<Item> WHITE_DIAMOND = gem(DyeColor.WHITE);
+    /*public static final RegistrySupplier<Item> WHITE_DIAMOND = gem(DyeColor.WHITE);
     public static final RegistrySupplier<Item> ORANGE_DIAMOND = gem(DyeColor.ORANGE);
     public static final RegistrySupplier<Item> MAGENTA_DIAMOND = gem(DyeColor.MAGENTA);
     public static final RegistrySupplier<Item> LIGHT_BLUE_DIAMOND = gem(DyeColor.LIGHT_BLUE);
@@ -32,11 +32,16 @@ public class ModItems {
     public static final RegistrySupplier<Item> BROWN_DIAMOND = gem(DyeColor.BROWN);
     public static final RegistrySupplier<Item> GREEN_DIAMOND = gem(DyeColor.GREEN);
     public static final RegistrySupplier<Item> RED_DIAMOND = gem(DyeColor.RED);
-    public static final RegistrySupplier<Item> BLACK_DIAMOND = gem(DyeColor.BLACK);
+    public static final RegistrySupplier<Item> BLACK_DIAMOND = gem(DyeColor.BLACK);*/
 
 
+    public static final List<RegistrySupplier<Item>> GEMS = new ArrayList<>();
     public static final List<RegistrySupplier<Item>> ARMOR = new ArrayList<>();
     static {
+        for (var color : DyeColor.values()) {
+            GEMS.add(gem(color));
+        }
+
         for (var material : ModArmorMaterials.values()) {
             registerArmorSet(material);
         }
