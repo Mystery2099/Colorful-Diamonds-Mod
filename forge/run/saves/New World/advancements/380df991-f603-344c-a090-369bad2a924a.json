@@ -5,9 +5,9 @@
     },
     "done": true
   },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_tab/orange_diamond": {
+  "colorful_diamonds_mod:recipes/tools/white_diamond_pickaxe": {
     "criteria": {
-      "has_diamond": "2023-12-15 21:16:24 -0500"
+      "has_colorful_diamonds_mod:white_diamond": "2023-12-16 16:20:47 -0500"
     },
     "done": true
   },
@@ -23,15 +23,15 @@
     },
     "done": true
   },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_tools_tab/white_diamond_shovel": {
+  "colorful_diamonds_mod:recipes/combat/white_diamond_chestplate": {
     "criteria": {
-      "has_colorful_diamonds_mod:white_diamond": "2023-12-15 21:17:25 -0500"
+      "has_colorful_diamonds_mod:white_diamond": "2023-12-16 16:20:47 -0500"
     },
     "done": true
   },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_tab/brown_diamond": {
+  "colorful_diamonds_mod:recipes/tools/white_diamond_hoe": {
     "criteria": {
-      "has_diamond": "2023-12-15 21:16:24 -0500"
+      "has_colorful_diamonds_mod:white_diamond": "2023-12-16 16:20:47 -0500"
     },
     "done": true
   },
@@ -41,15 +41,27 @@
     },
     "done": true
   },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_tab/cyan_diamond": {
+  "colorful_diamonds_mod:recipes/materials/lime_diamond": {
     "criteria": {
-      "has_diamond": "2023-12-15 21:16:24 -0500"
+      "has_diamond": "2023-12-16 16:20:47 -0500"
     },
     "done": true
   },
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2023-12-15 21:16:24 -0500"
+    },
+    "done": true
+  },
+  "colorful_diamonds_mod:recipes/materials/blue_diamond": {
+    "criteria": {
+      "has_diamond": "2023-12-16 16:20:47 -0500"
+    },
+    "done": true
+  },
+  "colorful_diamonds_mod:recipes/materials/yellow_diamond": {
+    "criteria": {
+      "has_diamond": "2023-12-16 16:20:47 -0500"
     },
     "done": true
   },
@@ -71,45 +83,39 @@
     },
     "done": false
   },
+  "colorful_diamonds_mod:recipes/materials/pink_diamond": {
+    "criteria": {
+      "has_diamond": "2023-12-16 16:20:47 -0500"
+    },
+    "done": true
+  },
+  "colorful_diamonds_mod:recipes/materials/magenta_diamond": {
+    "criteria": {
+      "has_diamond": "2023-12-16 16:20:47 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2023-12-15 21:16:24 -0500"
     },
     "done": true
   },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_combat_tab/white_diamond_chestplate": {
+  "colorful_diamonds_mod:recipes/materials/light_blue_diamond": {
     "criteria": {
-      "has_colorful_diamonds_mod:white_diamond": "2023-12-15 21:17:25 -0500"
+      "has_diamond": "2023-12-16 16:20:47 -0500"
     },
     "done": true
   },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_tab/white_diamond_from_block": {
+  "colorful_diamonds_mod:recipes/tools/white_diamond_axe": {
     "criteria": {
-      "has_white_diamond_block": "2023-12-15 21:15:51 -0500"
+      "has_colorful_diamonds_mod:white_diamond": "2023-12-16 16:20:47 -0500"
     },
     "done": true
   },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_tab/purple_diamond": {
+  "colorful_diamonds_mod:recipes/materials/gray_diamond": {
     "criteria": {
-      "has_diamond": "2023-12-15 21:16:24 -0500"
-    },
-    "done": true
-  },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_tab/gray_diamond": {
-    "criteria": {
-      "has_diamond": "2023-12-15 21:16:24 -0500"
-    },
-    "done": true
-  },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_tools_tab/white_diamond_axe": {
-    "criteria": {
-      "has_colorful_diamonds_mod:white_diamond": "2023-12-15 21:17:25 -0500"
-    },
-    "done": true
-  },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_tab/black_diamond": {
-    "criteria": {
-      "has_diamond": "2023-12-15 21:16:24 -0500"
+      "has_diamond": "2023-12-16 16:20:47 -0500"
     },
     "done": true
   },
@@ -119,37 +125,19 @@
     },
     "done": true
   },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_tab/white_diamond_block": {
-    "criteria": {
-      "has_white_diamond": "2023-12-15 21:17:25 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/jukebox": {
     "criteria": {
       "has_diamond": "2023-12-15 21:16:24 -0500"
     },
     "done": true
   },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_tab/white_diamond": {
+  "colorful_diamonds_mod:recipes/combat/white_diamond_boots": {
     "criteria": {
-      "has_diamond": "2023-12-15 21:16:24 -0500"
-    },
-    "done": true
-  },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_combat_tab/white_diamond_sword": {
-    "criteria": {
-      "has_colorful_diamonds_mod:white_diamond": "2023-12-15 21:17:25 -0500"
+      "has_colorful_diamonds_mod:white_diamond": "2023-12-16 16:20:47 -0500"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/diamond_block": {
-    "criteria": {
-      "has_diamond": "2023-12-15 21:16:24 -0500"
-    },
-    "done": true
-  },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_tab/lime_diamond": {
     "criteria": {
       "has_diamond": "2023-12-15 21:16:24 -0500"
     },
@@ -167,9 +155,9 @@
     },
     "done": true
   },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_tab/blue_diamond": {
+  "colorful_diamonds_mod:recipes/combat/white_diamond_helmet": {
     "criteria": {
-      "has_diamond": "2023-12-15 21:16:24 -0500"
+      "has_colorful_diamonds_mod:white_diamond": "2023-12-16 16:20:47 -0500"
     },
     "done": true
   },
@@ -185,27 +173,45 @@
     },
     "done": true
   },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_tab/light_gray_diamond": {
+  "colorful_diamonds_mod:recipes/materials/green_diamond": {
     "criteria": {
-      "has_diamond": "2023-12-15 21:16:24 -0500"
+      "has_diamond": "2023-12-16 16:20:47 -0500"
     },
     "done": true
   },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_tab/pink_diamond": {
+  "colorful_diamonds_mod:recipes/materials/orange_diamond": {
     "criteria": {
-      "has_diamond": "2023-12-15 21:16:24 -0500"
+      "has_diamond": "2023-12-16 16:20:47 -0500"
     },
     "done": true
   },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_tools_tab/white_diamond_hoe": {
+  "colorful_diamonds_mod:recipes/materials/light_gray_diamond": {
     "criteria": {
-      "has_colorful_diamonds_mod:white_diamond": "2023-12-15 21:17:25 -0500"
+      "has_diamond": "2023-12-16 16:20:47 -0500"
     },
     "done": true
   },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_tab/green_diamond": {
+  "colorful_diamonds_mod:recipes/materials/brown_diamond": {
     "criteria": {
-      "has_diamond": "2023-12-15 21:16:24 -0500"
+      "has_diamond": "2023-12-16 16:20:47 -0500"
+    },
+    "done": true
+  },
+  "colorful_diamonds_mod:recipes/tools/white_diamond_shovel": {
+    "criteria": {
+      "has_colorful_diamonds_mod:white_diamond": "2023-12-16 16:20:47 -0500"
+    },
+    "done": true
+  },
+  "colorful_diamonds_mod:recipes/materials/cyan_diamond": {
+    "criteria": {
+      "has_diamond": "2023-12-16 16:20:47 -0500"
+    },
+    "done": true
+  },
+  "colorful_diamonds_mod:recipes/materials/purple_diamond": {
+    "criteria": {
+      "has_diamond": "2023-12-16 16:20:47 -0500"
     },
     "done": true
   },
@@ -215,9 +221,9 @@
     },
     "done": true
   },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_combat_tab/white_diamond_helmet": {
+  "colorful_diamonds_mod:recipes/materials/white_diamond": {
     "criteria": {
-      "has_colorful_diamonds_mod:white_diamond": "2023-12-15 21:17:25 -0500"
+      "has_diamond": "2023-12-16 16:20:47 -0500"
     },
     "done": true
   },
@@ -227,21 +233,15 @@
     },
     "done": true
   },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_combat_tab/white_diamond_leggings": {
-    "criteria": {
-      "has_colorful_diamonds_mod:white_diamond": "2023-12-15 21:17:25 -0500"
-    },
-    "done": true
-  },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_tools_tab/white_diamond_pickaxe": {
-    "criteria": {
-      "has_colorful_diamonds_mod:white_diamond": "2023-12-15 21:17:25 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2023-12-15 21:16:24 -0500"
+    },
+    "done": true
+  },
+  "colorful_diamonds_mod:recipes/materials/black_diamond": {
+    "criteria": {
+      "has_diamond": "2023-12-16 16:20:47 -0500"
     },
     "done": true
   },
@@ -251,9 +251,9 @@
     },
     "done": true
   },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_combat_tab/white_diamond_boots": {
+  "colorful_diamonds_mod:recipes/materials/red_diamond": {
     "criteria": {
-      "has_colorful_diamonds_mod:white_diamond": "2023-12-15 21:17:25 -0500"
+      "has_diamond": "2023-12-16 16:20:47 -0500"
     },
     "done": true
   },
@@ -263,9 +263,9 @@
     },
     "done": true
   },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_tab/yellow_diamond": {
+  "colorful_diamonds_mod:recipes/combat/white_diamond_sword": {
     "criteria": {
-      "has_diamond": "2023-12-15 21:16:24 -0500"
+      "has_colorful_diamonds_mod:white_diamond": "2023-12-16 16:20:47 -0500"
     },
     "done": true
   },
@@ -281,15 +281,9 @@
     },
     "done": true
   },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_tab/red_diamond": {
+  "colorful_diamonds_mod:recipes/combat/white_diamond_leggings": {
     "criteria": {
-      "has_diamond": "2023-12-15 21:16:24 -0500"
-    },
-    "done": true
-  },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_tab/light_blue_diamond": {
-    "criteria": {
-      "has_diamond": "2023-12-15 21:16:24 -0500"
+      "has_colorful_diamonds_mod:white_diamond": "2023-12-16 16:20:47 -0500"
     },
     "done": true
   },
@@ -305,9 +299,9 @@
     },
     "done": true
   },
-  "colorful_diamonds_mod:recipes/colorful_diamonds_tab/magenta_diamond": {
+  "colorful_diamonds_mod:recipes/building_blocks/white_diamond_block": {
     "criteria": {
-      "has_diamond": "2023-12-15 21:16:24 -0500"
+      "has_white_diamond": "2023-12-16 16:20:47 -0500"
     },
     "done": true
   },

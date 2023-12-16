@@ -1,5 +1,6 @@
 package com.github.mystery2099.colorfuldiamondsmod;
 
+import com.github.mystery2099.colorfuldiamondsmod.item.ModItems;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.block.AbstractBlock;
@@ -32,7 +33,7 @@ public class ModBlocks {
     private static RegistrySupplier<Block> register(DyeColor color) {
         var location = new Identifier(ColorfulDiamondsMod.MOD_ID, color.toString().toLowerCase() + "_diamond_block");
         var block = BLOCKS.register(location, () -> new Block(AbstractBlock.Settings.of(Material.METAL, color).requiresTool()));
-        ModItems.ITEMS.register(location, () -> new BlockItem(block.get(), new Item.Settings().group(ColorfulDiamondsMod.BLOCK_TAB)));
+        ModItems.ITEMS.register(location, () -> new BlockItem(block.get(), new Item.Settings().group(ColorfulDiamondsMod.DEFAULT_ITEM_GROUP)));
         return block;
     }
 }
