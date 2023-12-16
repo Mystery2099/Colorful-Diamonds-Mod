@@ -25,25 +25,23 @@ public class ModItems {
         }
 
         for (var material : ModArmorMaterials.values()) {
-            registerArmorSet(material);
+            ARMOR.addAll(registerArmorSet(material));
         }
-    }
-
-    private static void registerArmorSet(ArmorMaterial material) {
-        ARMOR.addAll(
-            List.of(
-                register(material.getName()+"_helmet", () -> new ArmorItem(material, EquipmentSlot.HEAD, new Item.Settings().group(ColorfulDiamondsMod.COMBAT_ITEM_GROUP))),
-                register(material.getName()+"_chestplate", () -> new ArmorItem(material, EquipmentSlot.CHEST, new Item.Settings().group(ColorfulDiamondsMod.COMBAT_ITEM_GROUP))),
-                register(material.getName()+"_leggings", () -> new ArmorItem(material, EquipmentSlot.LEGS, new Item.Settings().group(ColorfulDiamondsMod.COMBAT_ITEM_GROUP))),
-                register(material.getName()+"_boots", () -> new ArmorItem(material, EquipmentSlot.FEET, new Item.Settings().group(ColorfulDiamondsMod.COMBAT_ITEM_GROUP)))
-            )
-        );
-
     }
 
     private static RegistrySupplier<Item> gem(DyeColor color) {
         return register(color.toString().toLowerCase() + "_diamond", () -> new Item(new Item.Settings().group(ColorfulDiamondsMod.DEFAULT_ITEM_GROUP)));
     }
+
+    private static List<RegistrySupplier<Item>> registerArmorSet(ArmorMaterial material) {
+        return List.of(
+            register(material.getName()+"_helmet", () -> new ArmorItem(material, EquipmentSlot.HEAD, new Item.Settings().group(ColorfulDiamondsMod.COMBAT_ITEM_GROUP))),
+            register(material.getName()+"_chestplate", () -> new ArmorItem(material, EquipmentSlot.CHEST, new Item.Settings().group(ColorfulDiamondsMod.COMBAT_ITEM_GROUP))),
+            register(material.getName()+"_leggings", () -> new ArmorItem(material, EquipmentSlot.LEGS, new Item.Settings().group(ColorfulDiamondsMod.COMBAT_ITEM_GROUP))),
+            register(material.getName()+"_boots", () -> new ArmorItem(material, EquipmentSlot.FEET, new Item.Settings().group(ColorfulDiamondsMod.COMBAT_ITEM_GROUP)))
+        );
+    }
+
     private static RegistrySupplier<Item> register(String id, Supplier<Item> item) {
         return ITEMS.register(new Identifier(ColorfulDiamondsMod.MOD_ID, id), item);
     }
