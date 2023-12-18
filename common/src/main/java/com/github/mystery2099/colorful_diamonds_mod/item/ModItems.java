@@ -1,6 +1,6 @@
-package com.github.mystery2099.colorfuldiamondsmod.item;
+package com.github.mystery2099.colorful_diamonds_mod.item;
 
-import com.github.mystery2099.colorfuldiamondsmod.ColorfulDiamondsMod;
+import com.github.mystery2099.colorful_diamonds_mod.ColorfulDiamondsMod;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.entity.EquipmentSlot;

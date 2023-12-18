@@ -11,7 +11,7 @@ loaderVersion = "[43,)" #mandatory This is typically bumped every Minecraft vers
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
 license = "All Rights Reserved"
 # A URL to refer people to when problems occur with this mod
-issueTrackerURL = "https://github.com/Mystery2099/ColorfulDiamondsMod/issues"
+issueTrackerURL = "https://github.com/Mystery2099/Colorful-Diamonds-Mod/issues"
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
 # The modid of the mod
@@ -27,7 +27,7 @@ displayName = "Colorful Diamonds Mod" #mandatory
 # A URL for the "homepage" for this mod, displayed in the mod UI
 #displayURL="http://example.com/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile = "icon.png" #optional
+logoFile = "assets/colorful_diamonds_mod/icon.png" #optional
 # A text field displayed in the mod UI
 #credits="Thanks for this example mod goes to Java" #optional
 # A text field displayed in the mod UI

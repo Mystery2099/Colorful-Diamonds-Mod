@@ -1,6 +1,6 @@
-package com.github.mystery2099.colorfuldiamondsmod;
+package com.github.mystery2099.colorful_diamonds_mod;
 
-import com.github.mystery2099.colorfuldiamondsmod.item.ModItems;
+import com.github.mystery2099.colorful_diamonds_mod.item.ModItems;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.block.AbstractBlock;

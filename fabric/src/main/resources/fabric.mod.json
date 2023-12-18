@@ -1,13 +1,19 @@
 {
   "schemaVersion": 1,
-  "id": "colorful_diamonds_mod",
+  "id": "${modid}",
   "version": "${version}",
   "name": "Colorful Diamonds Mod",
-  "description": "",
-  "authors": [],
-  "contact": {},
+  "description": "This mod adds a new color of diamond for each of the vanilla dyes",
+  "authors": [
+    "Mystery2099"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/wooden-accents-mod",
+    "sources": "https://github.com/Mystery2099/Colorful-Diamonds-Mod",
+    "issues": "https://github.com/Mystery2099/Colorful-Diamonds-Mod/issues"
+  },
   "license": "All Rights Reserved",
-  "icon": "icon.png",
+  "icon": "assets/colorful_diamonds_mod/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -24,5 +30,8 @@
   "depends": {
     "fabricloader": ">=0.15.2",
     "minecraft": ">=1.19.2"
-  }
+  },
+  "suggests": {},
+  "custom": {},
+  "recommends": {}
 }
