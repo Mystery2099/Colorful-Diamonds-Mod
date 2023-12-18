@@ -18,12 +18,7 @@
   "entrypoints": {
     "main": [
       {
-        "value": "com.github.mystery2099.colorfuldiamondsmod.fabric.ColorfulDiamondsModFabric"
-      }
-    ],
-    "fabric-datagen": [
-      {
-        "value": "com.github.mystery2099.colorfuldiamondsmod.fabric.datagen.ModDataGenerator"
+        "value": "com.github.mystery2099.colorful_diamonds_mod.fabric.ColorfulDiamondsModFabric"
       }
     ]
   },
