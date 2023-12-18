@@ -6,6 +6,7 @@
       <excludeFolder url="file://$MODULE_DIR$/../../../common/run/resourcepacks" />
       <excludeFolder url="file://$MODULE_DIR$/../../../common/run/resources" />
       <excludeFolder url="file://$MODULE_DIR$/../../../common/run/saves" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../common/run" />
     </content>
   </component>
   <component name="FacetManager">

@@ -1,7 +1,7 @@
-package com.github.mystery2099.colorfuldiamondsmod.forge;
+package com.github.mystery2099.colorful_diamonds_mod.forge;
 
 import dev.architectury.platform.forge.EventBuses;
-import com.github.mystery2099.colorfuldiamondsmod.ColorfulDiamondsMod;
+import com.github.mystery2099.colorful_diamonds_mod.ColorfulDiamondsMod;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 

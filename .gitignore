@@ -20,3 +20,5 @@
 /fabric/run/config/
 /fabric/run/.fabric/
 /fabric/run/.architectury-transformer/
+/quilt/run/
+/quilt/.gradle/

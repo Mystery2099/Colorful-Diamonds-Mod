@@ -12,6 +12,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/colorful-diamonds-mod.forge.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/colorful-diamonds-mod.forge.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/colorful-diamonds-mod.forge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/colorful-diamonds-mod.forge.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/colorful-diamonds-mod.forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/colorful-diamonds-mod.forge.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quilt/colorful-diamonds-mod.quilt.iml" filepath="$PROJECT_DIR$/.idea/modules/quilt/colorful-diamonds-mod.quilt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quilt/colorful-diamonds-mod.quilt.main.iml" filepath="$PROJECT_DIR$/.idea/modules/quilt/colorful-diamonds-mod.quilt.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quilt/colorful-diamonds-mod.quilt.test.iml" filepath="$PROJECT_DIR$/.idea/modules/quilt/colorful-diamonds-mod.quilt.test.iml" />
     </modules>
   </component>
 </project>
