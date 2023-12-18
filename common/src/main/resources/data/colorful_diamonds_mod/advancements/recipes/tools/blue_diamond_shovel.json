@@ -2,7 +2,8 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "colorful_diamonds_mod:blue_diamond_shovel"
+      "colorful_diamonds_mod:blue_diamond_shovel",
+      "colorful_diamonds_mod:blue_diamond_shovel_smithing"
     ]
   },
   "criteria": {

@@ -2,7 +2,8 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "colorful_diamonds_mod:lime_diamond_hoe"
+      "colorful_diamonds_mod:lime_diamond_hoe",
+      "colorful_diamonds_mod:lime_diamond_hoe_smithing"
     ]
   },
   "criteria": {
