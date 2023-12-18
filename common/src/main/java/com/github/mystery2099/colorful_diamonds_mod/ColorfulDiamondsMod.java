@@ -10,11 +10,13 @@ public class ColorfulDiamondsMod {
     public static final String MOD_ID = "colorful_diamonds_mod";
     public static final ItemGroup DEFAULT_ITEM_GROUP = CreativeTabRegistry.create(new Identifier(ColorfulDiamondsMod.MOD_ID, "default"), () ->
             new ItemStack(ModItems.GEMS.get(0).get()));
+    public static final ItemGroup TOOL_ITEM_GROUP = CreativeTabRegistry.create(new Identifier(ColorfulDiamondsMod.MOD_ID, "tools"), () ->
+            new ItemStack(ModItems.TOOLS.get(0).get()));
     public static final ItemGroup COMBAT_ITEM_GROUP = CreativeTabRegistry.create(new Identifier(ColorfulDiamondsMod.MOD_ID, "combat"), () ->
-            new ItemStack(ModItems.ARMOR.get(0).get()));
+            new ItemStack(ModItems.WEAPONS.get(0).get()));
+
     public static void init() {
         ModBlocks.BLOCKS.register();
         ModItems.ITEMS.register();
-
     }
 }
