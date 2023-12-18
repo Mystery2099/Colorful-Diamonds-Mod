@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "tag": "colorful_diamonds_mod:colorful_diamond_pickaxes"
+    "tag": "colorful_diamonds_mod:colored_diamond_pickaxes"
   },
   "addition": {
     "item": "minecraft:netherite_ingot"

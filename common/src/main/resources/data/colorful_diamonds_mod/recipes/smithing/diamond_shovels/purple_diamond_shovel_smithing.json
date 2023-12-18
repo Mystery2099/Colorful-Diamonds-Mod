@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "colorful_diamonds_mod:diamond_shovels"
+  },
+  "addition": {
+    "item": "minecraft:purple_dye"
+  },
+  "result": {
+    "item": "colorful_diamonds_mod:purple_diamond_shovel"
+  }
+}

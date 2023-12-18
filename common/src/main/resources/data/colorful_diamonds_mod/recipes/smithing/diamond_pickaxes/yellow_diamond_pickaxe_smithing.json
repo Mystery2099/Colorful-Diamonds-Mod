@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "colorful_diamonds_mod:diamond_pickaxes"
+  },
+  "addition": {
+    "item": "minecraft:yellow_dye"
+  },
+  "result": {
+    "item": "colorful_diamonds_mod:yellow_diamond_pickaxe"
+  }
+}

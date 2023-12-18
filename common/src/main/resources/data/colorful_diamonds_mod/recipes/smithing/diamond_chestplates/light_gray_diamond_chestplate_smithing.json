@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "colorful_diamonds_mod:diamond_chestplates"
+  },
+  "addition": {
+    "item": "minecraft:light_gray_dye"
+  },
+  "result": {
+    "item": "colorful_diamonds_mod:light_gray_diamond_chestplate"
+  }
+}
