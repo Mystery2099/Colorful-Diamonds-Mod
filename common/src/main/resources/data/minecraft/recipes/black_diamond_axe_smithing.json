@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "colorful_diamonds_mod:colorful_diamond_axes"
+  },
+  "addition": {
+    "item": "minecraft:black_dye"
+  },
+  "result": {
+    "item": "colorful_diamonds_mod:black_diamond_axe"
+  }
+}
