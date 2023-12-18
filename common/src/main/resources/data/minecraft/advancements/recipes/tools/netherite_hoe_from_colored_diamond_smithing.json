@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:netherite_sword_smithing"
+      "minecraft:netherite_hoe_from_colored_diamond_smithing"
     ]
   },
   "criteria": {
@@ -21,7 +21,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:netherite_sword_smithing"
+        "recipe": "minecraft:netherite_hoe_from_colored_diamond_smithing"
       }
     }
   },

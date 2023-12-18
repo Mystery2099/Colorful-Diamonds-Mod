@@ -2,17 +2,17 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:netherite_axe_smithing"
+      "colorful_diamonds_mod:undying_diamond_helmet_smithing"
     ]
   },
   "criteria": {
-    "has_netherite_ingot": {
+    "has_diamond_helmet": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:netherite_ingot"
+              "minecraft:diamond_helmet"
             ]
           }
         ]
@@ -21,13 +21,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:netherite_axe_smithing"
+        "recipe": "colorful_diamonds_mod:undying_diamond_helmet_smithing"
       }
     }
   },
   "requirements": [
     [
-      "has_netherite_ingot",
+      "has_diamond_helmet",
       "has_the_recipe"
     ]
   ]
