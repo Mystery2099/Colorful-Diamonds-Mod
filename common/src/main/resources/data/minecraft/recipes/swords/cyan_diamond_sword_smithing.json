@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "colorful_diamonds_mod:colorful_diamond_swords"
+  },
+  "addition": {
+    "item": "minecraft:cyan_dye"
+  },
+  "result": {
+    "item": "colorful_diamonds_mod:cyan_diamond_sword"
+  }
+}
