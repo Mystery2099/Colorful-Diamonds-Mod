@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "colorfuldiamondsmod:pink_diamond_helmet",
+      "colorfuldiamondsmod:pink_diamond_helmet_smithing"
+    ]
+  },
+  "criteria": {
+    "has_colorfuldiamondsmod:pink_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "colorfuldiamondsmod:pink_diamond"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "colorfuldiamondsmod:pink_diamond_helmet"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colorfuldiamondsmod:pink_diamond",
+      "has_the_recipe"
+    ]
+  ]
+}

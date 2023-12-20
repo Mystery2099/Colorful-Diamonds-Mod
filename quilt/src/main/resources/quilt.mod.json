@@ -15,12 +15,12 @@
         "sources": "https://github.com/Mystery2099/Colorful-Diamonds-Mod",
         "issues": "https://github.com/Mystery2099/Colorful-Diamonds-Mod/issues"
       },
-      "icon": "assets/colorful_diamonds_mod/icon.png"
+      "icon": "assets/colorfuldiamondsmod/icon.png"
     },
     "intermediate_mappings": "net.fabricmc:intermediary",
     "entrypoints": {
       "init": [
-        "com.github.mystery2099.colorful_diamonds_mod.quilt.ColorfulDiamondsModQuilt"
+        "com.github.mystery2099.colorfuldiamondsmod.quilt.ColorfulDiamondsModQuilt"
       ]
     },
     "depends": [

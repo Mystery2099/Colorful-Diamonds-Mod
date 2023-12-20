@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "colorfuldiamondsmod:light_gray_diamond_helmet",
+      "colorfuldiamondsmod:light_gray_diamond_helmet_smithing"
+    ]
+  },
+  "criteria": {
+    "has_colorfuldiamondsmod:light_gray_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "colorfuldiamondsmod:light_gray_diamond"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "colorfuldiamondsmod:light_gray_diamond_helmet"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colorfuldiamondsmod:light_gray_diamond",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "colorfuldiamondsmod:white_diamond",
+    "colorfuldiamondsmod:orange_diamond",
+    "colorfuldiamondsmod:magenta_diamond",
+    "colorfuldiamondsmod:light_blue_diamond",
+    "colorfuldiamondsmod:yellow_diamond",
+    "colorfuldiamondsmod:lime_diamond",
+    "colorfuldiamondsmod:pink_diamond",
+    "colorfuldiamondsmod:gray_diamond",
+    "colorfuldiamondsmod:light_gray_diamond",
+    "colorfuldiamondsmod:cyan_diamond",
+    "colorfuldiamondsmod:purple_diamond",
+    "colorfuldiamondsmod:blue_diamond",
+    "colorfuldiamondsmod:brown_diamond",
+    "colorfuldiamondsmod:green_diamond",
+    "colorfuldiamondsmod:red_diamond",
+    "colorfuldiamondsmod:black_diamond"
+  ]
+}

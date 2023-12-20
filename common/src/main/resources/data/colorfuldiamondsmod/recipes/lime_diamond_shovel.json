@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lime_diamond_handhelds",
+  "pattern": [
+    "#",
+    "|",
+    "|"
+  ],
+  "key": {
+    "|": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "colorfuldiamondsmod:lime_diamond"
+    }
+  },
+  "result": {
+    "item": "colorfuldiamondsmod:lime_diamond_shovel"
+  }
+}

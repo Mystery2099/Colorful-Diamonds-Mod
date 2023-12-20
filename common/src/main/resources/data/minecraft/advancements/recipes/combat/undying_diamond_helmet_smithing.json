@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "colorful_diamonds_mod:undying_diamond_helmet_smithing"
+      "colorfuldiamondsmod:undying_diamond_helmet_smithing"
     ]
   },
   "criteria": {
@@ -21,7 +21,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "colorful_diamonds_mod:undying_diamond_helmet_smithing"
+        "recipe": "colorfuldiamondsmod:undying_diamond_helmet_smithing"
       }
     }
   },

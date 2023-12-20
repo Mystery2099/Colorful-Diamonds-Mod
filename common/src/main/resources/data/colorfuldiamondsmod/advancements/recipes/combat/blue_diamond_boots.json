@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "colorfuldiamondsmod:blue_diamond_boots",
+      "colorfuldiamondsmod:blue_diamond_boots_smithing"
+    ]
+  },
+  "criteria": {
+    "has_colorfuldiamondsmod:blue_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "colorfuldiamondsmod:blue_diamond"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "colorfuldiamondsmod:blue_diamond_boots"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colorfuldiamondsmod:blue_diamond",
+      "has_the_recipe"
+    ]
+  ]
+}

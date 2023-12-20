@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "colorful_diamonds_mod:item/black_diamond_hoe"
-  }
-}

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "colorfuldiamondsmod:light_gray_diamond_block"
+    ]
+  },
+  "criteria": {
+    "has_light_gray_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "colorfuldiamondsmod:light_gray_diamond"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "colorfuldiamondsmod:light_gray_diamond_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_light_gray_diamond",
+      "has_the_recipe"
+    ]
+  ]
+}

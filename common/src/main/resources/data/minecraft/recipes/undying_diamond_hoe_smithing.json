@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "tag": "colorful_diamonds_mod:colored_diamond_hoes"
+    "tag": "colorfuldiamondsmod:colored_diamond_hoes"
   },
   "addition": {
     "item": "minecraft:water_bucket"

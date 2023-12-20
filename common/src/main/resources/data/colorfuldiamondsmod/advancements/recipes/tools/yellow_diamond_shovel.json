@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "colorfuldiamondsmod:yellow_diamond_shovel",
+      "colorfuldiamondsmod:yellow_diamond_shovel_smithing"
+    ]
+  },
+  "criteria": {
+    "has_colorfuldiamondsmod:yellow_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "colorfuldiamondsmod:yellow_diamond"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "colorfuldiamondsmod:yellow_diamond_shovel"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colorfuldiamondsmod:yellow_diamond",
+      "has_the_recipe"
+    ]
+  ]
+}

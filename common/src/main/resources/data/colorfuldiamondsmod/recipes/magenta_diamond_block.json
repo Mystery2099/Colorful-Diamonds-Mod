@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "colored_diamond_blocks",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "colorfuldiamondsmod:magenta_diamond"
+    }
+  },
+  "result": {
+    "item": "colorfuldiamondsmod:magenta_diamond_block"
+  }
+}

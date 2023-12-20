@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "colorfuldiamondsmod:gray_diamond_hoe",
+      "colorfuldiamondsmod:gray_diamond_hoe_smithing"
+    ]
+  },
+  "criteria": {
+    "has_colorfuldiamondsmod:gray_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "colorfuldiamondsmod:gray_diamond"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "colorfuldiamondsmod:gray_diamond_hoe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colorfuldiamondsmod:gray_diamond",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "colorfuldiamondsmod:pink_diamond_hoe",
+      "colorfuldiamondsmod:pink_diamond_hoe_smithing"
+    ]
+  },
+  "criteria": {
+    "has_colorfuldiamondsmod:pink_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "colorfuldiamondsmod:pink_diamond"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "colorfuldiamondsmod:pink_diamond_hoe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colorfuldiamondsmod:pink_diamond",
+      "has_the_recipe"
+    ]
+  ]
+}

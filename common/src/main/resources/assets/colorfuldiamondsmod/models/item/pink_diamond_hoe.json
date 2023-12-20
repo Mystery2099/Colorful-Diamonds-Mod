@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "colorfuldiamondsmod:item/pink_diamond_hoe"
+  }
+}

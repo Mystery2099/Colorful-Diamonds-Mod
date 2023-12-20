@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "colorfuldiamondsmod:purple_diamond_pickaxe",
+      "colorfuldiamondsmod:purple_diamond_pickaxe_smithing"
+    ]
+  },
+  "criteria": {
+    "has_colorfuldiamondsmod:purple_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "colorfuldiamondsmod:purple_diamond"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "colorfuldiamondsmod:purple_diamond_pickaxe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colorfuldiamondsmod:purple_diamond",
+      "has_the_recipe"
+    ]
+  ]
+}

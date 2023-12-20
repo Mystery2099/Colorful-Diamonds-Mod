@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "colorfuldiamondsmod:diamond_boots"
+  },
+  "addition": {
+    "item": "minecraft:purple_dye"
+  },
+  "result": {
+    "item": "colorfuldiamondsmod:purple_diamond_boots"
+  }
+}
