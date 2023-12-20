@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "colorfuldiamondsmod:purple_diamond_from_block"
+    ]
+  },
+  "criteria": {
+    "has_purple_diamond_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "colorfuldiamondsmod:purple_diamond_block"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "colorfuldiamondsmod:purple_diamond_from_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_purple_diamond_block",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "colorfuldiamondsmod:pink_diamond_block"
+    ]
+  },
+  "criteria": {
+    "has_pink_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "colorfuldiamondsmod:pink_diamond"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "colorfuldiamondsmod:pink_diamond_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_pink_diamond",
+      "has_the_recipe"
+    ]
+  ]
+}

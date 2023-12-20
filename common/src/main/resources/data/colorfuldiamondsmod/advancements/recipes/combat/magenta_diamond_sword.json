@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "colorfuldiamondsmod:magenta_diamond_sword",
+      "colorfuldiamondsmod:magenta_diamond_sword_smithing"
+    ]
+  },
+  "criteria": {
+    "has_colorfuldiamondsmod:magenta_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "colorfuldiamondsmod:magenta_diamond"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "colorfuldiamondsmod:magenta_diamond_sword"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colorfuldiamondsmod:magenta_diamond",
+      "has_the_recipe"
+    ]
+  ]
+}

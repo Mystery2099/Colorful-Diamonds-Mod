@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "colorfuldiamondsmod:green_diamond_block"
+    ]
+  },
+  "criteria": {
+    "has_green_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "colorfuldiamondsmod:green_diamond"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "colorfuldiamondsmod:green_diamond_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_green_diamond",
+      "has_the_recipe"
+    ]
+  ]
+}

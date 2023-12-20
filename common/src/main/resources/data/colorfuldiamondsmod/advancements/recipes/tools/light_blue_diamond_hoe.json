@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "colorfuldiamondsmod:light_blue_diamond_hoe",
+      "colorfuldiamondsmod:light_blue_diamond_hoe_smithing"
+    ]
+  },
+  "criteria": {
+    "has_colorfuldiamondsmod:light_blue_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "colorfuldiamondsmod:light_blue_diamond"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "colorfuldiamondsmod:light_blue_diamond_hoe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colorfuldiamondsmod:light_blue_diamond",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "green_diamond_handhelds",
+  "pattern": [
+    "###",
+    " | ",
+    " | "
+  ],
+  "key": {
+    "|": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "colorfuldiamondsmod:green_diamond"
+    }
+  },
+  "result": {
+    "item": "colorfuldiamondsmod:green_diamond_pickaxe"
+  }
+}

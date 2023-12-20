@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "colorfuldiamondsmod:diamond_helmets"
+  },
+  "addition": {
+    "item": "minecraft:pink_dye"
+  },
+  "result": {
+    "item": "colorfuldiamondsmod:pink_diamond_helmet"
+  }
+}

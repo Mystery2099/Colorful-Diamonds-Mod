@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "colorfuldiamondsmod:white_diamond_pickaxe",
+    "colorfuldiamondsmod:orange_diamond_pickaxe",
+    "colorfuldiamondsmod:magenta_diamond_pickaxe",
+    "colorfuldiamondsmod:light_blue_diamond_pickaxe",
+    "colorfuldiamondsmod:yellow_diamond_pickaxe",
+    "colorfuldiamondsmod:lime_diamond_pickaxe",
+    "colorfuldiamondsmod:pink_diamond_pickaxe",
+    "colorfuldiamondsmod:gray_diamond_pickaxe",
+    "colorfuldiamondsmod:light_gray_diamond_pickaxe",
+    "colorfuldiamondsmod:cyan_diamond_pickaxe",
+    "colorfuldiamondsmod:purple_diamond_pickaxe",
+    "colorfuldiamondsmod:blue_diamond_pickaxe",
+    "colorfuldiamondsmod:brown_diamond_pickaxe",
+    "colorfuldiamondsmod:green_diamond_pickaxe",
+    "colorfuldiamondsmod:red_diamond_pickaxe",
+    "colorfuldiamondsmod:black_diamond_pickaxe"
+  ]
+}

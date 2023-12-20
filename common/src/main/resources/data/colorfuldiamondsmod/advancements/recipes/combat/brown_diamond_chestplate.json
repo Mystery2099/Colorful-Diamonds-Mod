@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "colorfuldiamondsmod:brown_diamond_chestplate",
+      "colorfuldiamondsmod:brown_diamond_chestplate_smithing"
+    ]
+  },
+  "criteria": {
+    "has_colorfuldiamondsmod:brown_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "colorfuldiamondsmod:brown_diamond"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "colorfuldiamondsmod:brown_diamond_chestplate"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colorfuldiamondsmod:brown_diamond",
+      "has_the_recipe"
+    ]
+  ]
+}

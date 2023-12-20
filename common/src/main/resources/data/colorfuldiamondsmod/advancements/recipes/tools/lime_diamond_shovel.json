@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "colorfuldiamondsmod:lime_diamond_shovel",
+      "colorfuldiamondsmod:lime_diamond_shovel_smithing"
+    ]
+  },
+  "criteria": {
+    "has_colorfuldiamondsmod:lime_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "colorfuldiamondsmod:lime_diamond"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "colorfuldiamondsmod:lime_diamond_shovel"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colorfuldiamondsmod:lime_diamond",
+      "has_the_recipe"
+    ]
+  ]
+}

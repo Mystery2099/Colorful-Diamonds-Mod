@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "colorfuldiamondsmod:black_diamond_hoe",
+      "colorfuldiamondsmod:smithing/hoes/black_diamond_hoe"
+    ]
+  },
+  "criteria": {
+    "has_colorfuldiamondsmod:black_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "colorfuldiamondsmod:black_diamond"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "colorfuldiamondsmod:black_diamond_hoe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colorfuldiamondsmod:black_diamond",
+      "has_the_recipe"
+    ]
+  ]
+}

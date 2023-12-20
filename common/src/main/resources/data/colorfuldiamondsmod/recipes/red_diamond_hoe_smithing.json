@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "colorfuldiamondsmod:diamond_hoes"
+  },
+  "addition": {
+    "item": "minecraft:red_dye"
+  },
+  "result": {
+    "item": "colorfuldiamondsmod:red_diamond_hoe"
+  }
+}

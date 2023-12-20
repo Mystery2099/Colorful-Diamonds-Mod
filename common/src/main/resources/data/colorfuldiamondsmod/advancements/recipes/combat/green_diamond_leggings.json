@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "colorfuldiamondsmod:green_diamond_leggings",
+      "colorfuldiamondsmod:green_diamond_leggings_smithing"
+    ]
+  },
+  "criteria": {
+    "has_colorfuldiamondsmod:green_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "colorfuldiamondsmod:green_diamond"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "colorfuldiamondsmod:green_diamond_leggings"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_colorfuldiamondsmod:green_diamond",
+      "has_the_recipe"
+    ]
+  ]
+}

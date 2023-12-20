@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "colored_diamonds_from_dye",
+  "ingredients": [
+    {
+      "item": "minecraft:light_gray_dye"
+    },
+    {
+      "tag": "colorfuldiamondsmod:diamonds"
+    }
+  ],
+  "result": {
+    "item": "colorfuldiamondsmod:light_gray_diamond"
+  }
+}

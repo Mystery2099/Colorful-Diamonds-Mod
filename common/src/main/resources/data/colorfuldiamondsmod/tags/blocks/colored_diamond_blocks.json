@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "colorfuldiamondsmod:white_diamond_block",
+    "colorfuldiamondsmod:orange_diamond_block",
+    "colorfuldiamondsmod:magenta_diamond_block",
+    "colorfuldiamondsmod:light_blue_diamond_block",
+    "colorfuldiamondsmod:yellow_diamond_block",
+    "colorfuldiamondsmod:lime_diamond_block",
+    "colorfuldiamondsmod:pink_diamond_block",
+    "colorfuldiamondsmod:gray_diamond_block",
+    "colorfuldiamondsmod:light_gray_diamond_block",
+    "colorfuldiamondsmod:cyan_diamond_block",
+    "colorfuldiamondsmod:purple_diamond_block",
+    "colorfuldiamondsmod:blue_diamond_block",
+    "colorfuldiamondsmod:brown_diamond_block",
+    "colorfuldiamondsmod:green_diamond_block",
+    "colorfuldiamondsmod:red_diamond_block",
+    "colorfuldiamondsmod:black_diamond_block",
+    "colorfuldiamondsmod:rainbow_diamond_block",
+    "minecraft:diamond_block"
+  ]
+}
