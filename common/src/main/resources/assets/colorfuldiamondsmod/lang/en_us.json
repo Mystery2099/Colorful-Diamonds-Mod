@@ -19,7 +19,6 @@
   "item.colorfuldiamondsmod.green_diamond": "Green Diamond",
   "item.colorfuldiamondsmod.red_diamond": "Red Diamond",
   "item.colorfuldiamondsmod.black_diamond": "Black Diamond",
-  "item.colorfuldiamondsmod.rainbow_diamond": "Rainbow Diamond",
 
 
   "block.colorfuldiamondsmod.white_diamond_block": "Block of White Diamond",
@@ -38,7 +37,6 @@
   "block.colorfuldiamondsmod.green_diamond_block": "Block of Green Diamond",
   "block.colorfuldiamondsmod.red_diamond_block": "Block of Red Diamond",
   "block.colorfuldiamondsmod.black_diamond_block": "Block of Black Diamond",
-  "block.colorfuldiamondsmod.rainbow_diamond_block": "Rainbow Block of Diamond",
 
   "item.colorfuldiamondsmod.white_diamond_helmet": "White Diamond Helmet",
   "item.colorfuldiamondsmod.white_diamond_chestplate": "White Diamond Chestplate",
@@ -214,11 +212,5 @@
   "item.colorfuldiamondsmod.black_diamond_shovel": "Black Diamond Shovel",
   "item.colorfuldiamondsmod.black_diamond_pickaxe": "Black Diamond Pickaxe",
   "item.colorfuldiamondsmod.black_diamond_axe": "Black Diamond Axe",
-  "item.colorfuldiamondsmod.black_diamond_hoe": "Black Diamond Hoe",
-
-  "item.colorfuldiamondsmod.rainbow_diamond_sword": "Rainbow Diamond Sword",
-  "item.colorfuldiamondsmod.rainbow_diamond_shovel": "Rainbow Diamond Shovel",
-  "item.colorfuldiamondsmod.rainbow_diamond_pickaxe": "Rainbow Diamond Pickaxe",
-  "item.colorfuldiamondsmod.rainbow_diamond_axe": "Rainbow Diamond Axe",
-  "item.colorfuldiamondsmod.rainbow_diamond_hoe": "Rainbow Diamond Hoe"
+  "item.colorfuldiamondsmod.black_diamond_hoe": "Black Diamond Hoe"
 }
