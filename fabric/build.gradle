@@ -13,7 +13,6 @@ configurations {
     compileClasspath.extendsFrom common
     runtimeClasspath.extendsFrom common
     developmentFabric.extendsFrom common
-
 }
 
 dependencies {
@@ -49,6 +48,8 @@ remapJar {
 
 jar {
     archiveClassifier.set("dev")
+    archivesBaseName = "[fabric]" + archivesBaseName
+
 }
 
 sourcesJar {

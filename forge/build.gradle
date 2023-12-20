@@ -49,6 +49,7 @@ remapJar {
 
 jar {
     archiveClassifier.set("dev")
+    archivesBaseName = "[forge]" + archivesBaseName
 }
 
 sourcesJar {
