@@ -48,8 +48,6 @@ remapJar {
 
 jar {
     archiveClassifier.set("dev")
-    archivesBaseName = "[fabric]" + archivesBaseName
-
 }
 
 sourcesJar {
