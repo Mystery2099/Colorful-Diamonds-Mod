@@ -60,7 +60,6 @@ remapJar {
 jar {
     archiveClassifier.set("dev")
     archivesBaseName = "[quilt]" + archivesBaseName
-
 }
 
 sourcesJar {

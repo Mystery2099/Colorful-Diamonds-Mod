@@ -11,11 +11,11 @@
         "Mystery2099": "Owner"
       },
       "contact": {
-        "homepage": "https://modrinth.com/mod/wooden-accents-mod",
+        "homepage": "https://www.curseforge.com/minecraft/mc-mods/colorful-diamonds-mod",
         "sources": "https://github.com/Mystery2099/Colorful-Diamonds-Mod",
         "issues": "https://github.com/Mystery2099/Colorful-Diamonds-Mod/issues"
       },
-      "icon": "assets/colorfuldiamondsmod/icon.png"
+      "icon": "icon.png"
     },
     "intermediate_mappings": "net.fabricmc:intermediary",
     "entrypoints": {
