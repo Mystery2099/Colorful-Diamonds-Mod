@@ -54,6 +54,6 @@ side = "BOTH"
 [[dependencies.colorfuldiamondsmod]]
 modId = "architectury"
 mandatory = true
-versionRange = "[6.5.85,)"
+versionRange = "[8.1.73,)"
 ordering = "AFTER"
 side = "BOTH"
