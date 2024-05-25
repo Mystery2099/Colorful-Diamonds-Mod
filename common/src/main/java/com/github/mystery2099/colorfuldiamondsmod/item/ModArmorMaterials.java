@@ -1,6 +1,6 @@
 package com.github.mystery2099.colorfuldiamondsmod.item;
 
-import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
@@ -38,12 +38,12 @@ public enum ModArmorMaterials implements ArmorMaterial  {
         this.repairIngredientSupplier = repairIngredientSupplier;
     }
 
-    public int getDurability(EquipmentSlot slot) {
-        return BASE_DURABILITY[slot.getEntitySlotId()] * 33;
+    public int getDurability(ArmorItem.Type slot) {
+        return BASE_DURABILITY[slot.getEquipmentSlot().getEntitySlotId()] * 33;
     }
 
-    public int getProtectionAmount(EquipmentSlot slot) {
-        return this.protectionAmounts[slot.getEntitySlotId()];
+    public int getProtection(ArmorItem.Type slot) {
+        return this.protectionAmounts[slot.getEquipmentSlot().getEntitySlotId()];
     }
 
     public int getEnchantability() {

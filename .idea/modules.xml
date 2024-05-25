@@ -15,6 +15,14 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/quilt/colorful-diamonds-mod.quilt.iml" filepath="$PROJECT_DIR$/.idea/modules/quilt/colorful-diamonds-mod.quilt.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/quilt/colorful-diamonds-mod.quilt.main.iml" filepath="$PROJECT_DIR$/.idea/modules/quilt/colorful-diamonds-mod.quilt.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/quilt/colorful-diamonds-mod.quilt.test.iml" filepath="$PROJECT_DIR$/.idea/modules/quilt/colorful-diamonds-mod.quilt.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/com.github.mystery2099.colorful-diamonds-mod.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/com.github.mystery2099.colorful-diamonds-mod.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/com.github.mystery2099.colorful-diamonds-mod.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/com.github.mystery2099.colorful-diamonds-mod.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/com.github.mystery2099.colorful-diamonds-mod.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/com.github.mystery2099.colorful-diamonds-mod.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/com.github.mystery2099.colorful-diamonds-mod.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/com.github.mystery2099.colorful-diamonds-mod.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/com.github.mystery2099.colorful-diamonds-mod.forge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/com.github.mystery2099.colorful-diamonds-mod.forge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/com.github.mystery2099.colorful-diamonds-mod.forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/com.github.mystery2099.colorful-diamonds-mod.forge.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quilt/com.github.mystery2099.colorful-diamonds-mod.quilt.main.iml" filepath="$PROJECT_DIR$/.idea/modules/quilt/com.github.mystery2099.colorful-diamonds-mod.quilt.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quilt/com.github.mystery2099.colorful-diamonds-mod.quilt.test.iml" filepath="$PROJECT_DIR$/.idea/modules/quilt/com.github.mystery2099.colorful-diamonds-mod.quilt.test.iml" />
     </modules>
   </component>
 </project>
