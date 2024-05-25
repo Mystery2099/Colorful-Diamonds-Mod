@@ -39,7 +39,7 @@ The only limit is your own imagination!
 [[dependencies.colorfuldiamondsmod]] #optional
 modId = "forge" #mandatory
 mandatory = true #mandatory
-versionRange = "[43,)" #mandatory
+versionRange = "[45,)" #mandatory
 ordering = "NONE"
 side = "BOTH"
 
