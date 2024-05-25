@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#colorfuldiamondsmod:colored_diamond_helmets",
+    "#colorfuldiamondsmod:colored_diamond_chestplates",
+    "#colorfuldiamondsmod:colored_diamond_leggings",
+    "#colorfuldiamondsmod:colored_diamond_boots"
+  ]
+}
